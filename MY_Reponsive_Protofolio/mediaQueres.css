@@ -1,0 +1,179 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .aboutContainers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+      .project-description {
+      font-size: 0.85rem;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktopNav {
+      display: none;
+    }
+    #menuNav {
+      display: flex;
+    }
+    #experience,
+    .experienceDetailsContainer {
+      margin-top: 2rem;
+    }
+  #profile,
+    .sectionContainer {
+      display: block;
+    }
+    section,
+    .sectionContainer {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .sectionPicContainer {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+    .aboutContainers {
+      margin-top: 0;
+    }
+    .project-description {
+      margin: 0 1.5rem 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    section {
+      padding-top: 2vh;
+      margin: 0 1.5rem;
+    }
+    #contact,
+    footer {
+      height: auto;
+      padding-bottom: 3rem;
+    }
+    #profile {
+      height: auto;
+      min-height: 83vh;
+      margin-bottom: 0;
+      padding-bottom: 2rem;
+    }
+    article {
+      font-size: 0.9rem;
+      width: 7.5rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .aboutContainers,
+    .contactInfoContainer2,
+    .btnContainer {
+      flex-wrap: wrap;
+    }
+    .contactInfoContainer1 {
+      margin: 0;
+    }
+    .contactInfoContainer1 p,
+    .navLinks li a {
+      font-size: 0.9rem;
+    }
+    .detailsContainer {
+      padding: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .navLinks {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .sectionPicContainer {
+      width: auto;
+      height: 40vw;
+      max-height: 250px;
+      justify-content: center;
+    }
+    .sectionP2 {
+      font-size: 1.1rem;
+    }
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .textContainer {
+      text-align: justify;
+    }
+    .project-description {
+      font-size: 0.8rem;
+      margin: 0 0.5rem 1rem;
+      text-align: center;
+    }
+    .btn {
+      padding: 0.7rem;
+      width: 7rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    nav {
+      height: 12vh;
+    }
+    .menuIcon {
+      height: 20px;
+      width: 25px;
+    }
+    .logo {
+      font-size: 1.2rem;
+    }
+    section {
+      padding-top: 1.5vh;
+      margin: 0 1rem;
+    }
+    #profile {
+      min-height: 75vh;
+    }
+    .sectionPicContainer {
+      height: 35vw;
+    }
+    .articleContainer {
+      gap: 1.5rem;
+    }
+    article {
+      width: 6.5rem;
+      font-size: 0.8rem;
+    }
+    .title {
+      font-size: 1.5rem;
+    }
+    .sectionP2 {
+      font-size: 1rem;
+    }
+    .btn {
+      padding: 0.5rem;
+      width: 6rem;
+      font-size: 0.8rem;
+    }
+    .project-title {
+      font-size: 1rem;
+    }
+    .project-description {
+      font-size: 0.75rem;
+      line-height: 1.3;
+    }
+  }
